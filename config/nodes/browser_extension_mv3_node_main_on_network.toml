@@ -1,0 +1,9 @@
+title = "Config for the Browser Extension MV3 Node On Network"
+
+[node]
+detect-drivers = false
+
+[[node.driver-configuration]]
+display-name = "browser_extension_mv3-main_on_network"
+stereotype = '{"browserName":"chrome", "nodename:applicationName":"browser_extension_mv3-main_on_network", "goog:chromeOptions": {"args":["profile-directory=Profile 1", "user-data-dir=C:/Users/admin/AppData/Local/Google/Chrome/User Data"]}}'
+max-sessions = 1

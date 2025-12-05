@@ -1,0 +1,9 @@
+title = "Config for an IT admin"
+
+[node]
+detect-drivers = false
+
+[[node.driver-configuration]]
+display-name = "it_admin"
+stereotype = '{"browserName":"chrome", "nodename:applicationName":"it_admin"}'
+max-sessions = 1

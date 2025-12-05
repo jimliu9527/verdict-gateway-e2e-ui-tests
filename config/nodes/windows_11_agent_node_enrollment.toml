@@ -1,0 +1,9 @@
+title = "Config for the Windows 11 Agent Enrollment Node"
+
+[node]
+detect-drivers = false
+
+[[node.driver-configuration]]
+display-name = "windows_11_agent-enrollment"
+stereotype = '{"browserName":"chrome", "nodename:applicationName":"windows_11_agent-enrollment", "goog:chromeOptions": {"args":["profile-directory=Profile 2", "user-data-dir=C:/Users/admin/AppData/Local/Google/Chrome/User Data"]}}'
+max-sessions = 1

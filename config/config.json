@@ -1,0 +1,43 @@
+{
+    "selenium": {
+        "hub": "http://192.168.7.56:4444/wd/hub"
+    },
+    "schoolManager": {
+        "stg": {
+            "url": "https://linewizefilter.qoria-stg.cloud",
+            "blockedPage": "blocked.beta-1.linewize.net"
+        }
+    },
+    "global": {
+        "waitTime": 10000
+    },
+    "Zephyr": {
+        "baseUrl": "https://api.zephyrscale.smartbear.com/v2",
+        "projectKey": "QQA",
+        "testCaseFolderName": "01.01.01.01 Block signature",    
+        "baseTestCaseFolder": "Base Test Cases for Uplift",
+        "maxQueryResults": 100000,
+        "latestExecutionDays": 1,
+        "cycleFolderName": "Selenium Automated Cycles",
+        "preloadDataFolders": {
+            "windows10Agent": ["01.01.02.05 Videos"],
+            "windows11Agent": ["01.02.02.05 Videos"],
+            "browserExtensionMV3": ["02.01.01.02.01.05 Videos"],
+            "browserExtensionMV3OnNetwork": ["02.01.01.02.02.05 Videos"]
+        }
+    },
+    "Jira": {
+        "createNewTasksForMissingSteps": false,
+        "baseUrl": "https://familyzone.atlassian.net",
+        "projectKey": "QQA",
+        "parentEpic": "QQA-524",
+        "newTaskTypeId": "10002"
+    },
+    "Google": {
+        "webhookUrl": ""
+    },
+    "WindowsAgent": {
+        "installerLocation": "C:\\Users\\admin\\selenium",
+        "installerFileName": "connect-4.1.1-1224.stg.exe"
+    }
+}

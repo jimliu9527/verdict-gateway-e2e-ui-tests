@@ -1,0 +1,9 @@
+title = "Config for the Windows Agent Node"
+
+[node]
+detect-drivers = false
+
+[[node.driver-configuration]]
+display-name = "windows_11_agent-other"
+stereotype = '{"browserName":"chrome", "nodename:applicationName":"windows_11_agent-other", "goog:chromeOptions": {"args":["profile-directory=Profile 1", "user-data-dir=C:/Users/admin/AppData/Local/Google/Chrome/User Data"]}}'
+max-sessions = 1
